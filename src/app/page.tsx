@@ -54,13 +54,13 @@ export default function Home() {
 
           <div className="mt-5">
             <p>
-              i'm a software engineer. was recently working for Castler, a
+              i&apos;m a software engineer. was recently working for Castler, a
               fintech startup.
             </p>
             <p>I have more than 1 year of professional experience.</p>
             <p>
               although most of my experience is in the{" "}
-              <span ref={mernRef}>MERN</span> stack, I'm{" "}
+              <span ref={mernRef}>MERN</span> stack, I&apos;m{" "}
               <span ref={langAgnoRef}>language&nbsp;agnostic</span> and ready to
               learn whatever is required for the task
             </p>
