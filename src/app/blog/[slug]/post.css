@@ -1,0 +1,7 @@
+h3 {
+  @apply text-2xl;
+}
+
+ul {
+  @apply list-disc pl-5;
+}
