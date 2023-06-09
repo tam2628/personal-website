@@ -12,7 +12,9 @@ export default async function Blog() {
         <div className="lg:w-3/5 md:w-4/5 sm:w-full">
           <h3 className="text-4xl mb-10">boring tech blog</h3>
 
-          {posts.length && (
+	{!posts.length && <p>welcome to the hollowness of this page!</p>}
+
+          {!!posts.length && (
             <ul>
               {posts.map((post: any, key: number) => (
                 <li key={key}>
