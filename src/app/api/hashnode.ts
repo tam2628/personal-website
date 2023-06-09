@@ -8,6 +8,7 @@ async function gql(query: string, variables: Object) {
       query,
       variables,
     }),
+    next: {revalidate: 60}
   });
 
   return data.json();
